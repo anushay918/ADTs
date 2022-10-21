@@ -20,7 +20,7 @@ def addvalue(value):
         else:
             placed = False
             current = rootptr
-            while placed == False and current != -1:
+            while placed == False:
                 if value < BTdata[current]:
                     if BTleft[current] == -1:
                         placed = True
